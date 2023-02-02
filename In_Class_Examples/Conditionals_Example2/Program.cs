@@ -1,4 +1,5 @@
-﻿int randomNumber = 0;
+﻿const string DEVELOPER_INFORMATION = "Professor Ackerman";
+int randomNumber = 0;
 
 Random r = new Random();
 randomNumber = r.Next(1, 100 + 1);
@@ -20,3 +21,5 @@ else
 {
     Console.WriteLine(randomNumber.ToString("N0"));
 }
+
+Console.WriteLine(DEVELOPER_INFORMATION);
