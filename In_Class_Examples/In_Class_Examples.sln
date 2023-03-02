@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_Example2", "Loops_Exa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_Example3", "Loops_Example3\Loops_Example3.csproj", "{5293F548-CD44-48E9-AE0C-87A5EDA6C966}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_ReadingInAFile", "Loops_ReadingInAFile\Loops_ReadingInAFile.csproj", "{EE8FF4EB-F555-40AB-BEFA-2A31E1F049E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_ReadingInAFile", "Loops_ReadingInAFile\Loops_ReadingInAFile.csproj", "{EE8FF4EB-F555-40AB-BEFA-2A31E1F049E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation_Example2", "StringManipulation_Example2\StringManipulation_Example2.csproj", "{7393121B-8815-4093-874A-FFFB052EFF69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{EE8FF4EB-F555-40AB-BEFA-2A31E1F049E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE8FF4EB-F555-40AB-BEFA-2A31E1F049E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE8FF4EB-F555-40AB-BEFA-2A31E1F049E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7393121B-8815-4093-874A-FFFB052EFF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7393121B-8815-4093-874A-FFFB052EFF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7393121B-8815-4093-874A-FFFB052EFF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7393121B-8815-4093-874A-FFFB052EFF69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

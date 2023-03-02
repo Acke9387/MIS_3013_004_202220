@@ -10,8 +10,27 @@ string[] linesOfFile = File.ReadAllLines("The stainless steel rat by Harry Harri
 //Console.WriteLine(linesOfFile[1]);
 //Console.WriteLine(linesOfFile[2]);
 
+bool shouldWriteToConsole = false;
+
 for (int i = 0; i < linesOfFile.Length; i++)
 {
+    string line = linesOfFile[i];
+
+    if(line.Contains("THE END") == true)
+    {
+        Console.WriteLine(line);
+        break;
+    }
+
+    if (shouldWriteToConsole == false && line.Contains("Title") == false)
+    {
+        continue;
+    }
+    else
+    {
+        shouldWriteToConsole = true;
+    }
+
     Console.WriteLine(linesOfFile[i]);
     if (i % 5 == 0 && i != 0)
     {
