@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation_Example2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_Arrays", "Collections_Arrays\Collections_Arrays.csproj", "{69AEC69B-6241-4EB1-8926-E85EBB9BBE05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_Lists", "Collections_Lists\Collections_Lists.csproj", "{BF281CA4-0709-4199-A015-BDD7BD4838C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{69AEC69B-6241-4EB1-8926-E85EBB9BBE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69AEC69B-6241-4EB1-8926-E85EBB9BBE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69AEC69B-6241-4EB1-8926-E85EBB9BBE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF281CA4-0709-4199-A015-BDD7BD4838C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF281CA4-0709-4199-A015-BDD7BD4838C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF281CA4-0709-4199-A015-BDD7BD4838C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF281CA4-0709-4199-A015-BDD7BD4838C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
