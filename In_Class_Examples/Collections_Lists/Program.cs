@@ -1,6 +1,5 @@
 ﻿List<string> favoriteThings = new List<string>();
 
-
 do
 {
 
