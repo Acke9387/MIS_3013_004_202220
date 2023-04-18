@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes_Cereal
 {
-    internal class Cereal
+    public class Cereal
     {
     }
 }

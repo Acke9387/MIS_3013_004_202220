@@ -1,4 +1,5 @@
 ﻿
+
 using Classes_Cereal;
 
 string entireFile = File.ReadAllText("Cereal_Data.txt");
