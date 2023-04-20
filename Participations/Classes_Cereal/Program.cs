@@ -25,9 +25,34 @@ for (int i = 1; i < eachLineOfFile.Length; i++)
     //partsOfLine[3] = "cups"
 
     string name = partsOfLine[0];
-    c.Name = name;
     double calories = Convert.ToDouble(partsOfLine[2]);
-    Console.WriteLine($"{name} has {calories.ToString("N")}");
+    
+    c.Name = name;
+    c.Calories = calories;
+    c.Manufacturer = partsOfLine[1];
+    c.Cups = Convert.ToDouble(partsOfLine[3]);
 
     cereals.Add(c);
+}
+
+
+// Output all the cereal information that has a serving size of 1 cup or more
+Console.WriteLine("Cereals with 1 cup or more per serving");
+foreach (Cereal cereal in cereals)
+{
+    if (cereal.Cups >= 1)
+    {
+        Console.WriteLine(cereal);
+    }
+}
+
+// Output all the cereal information that has 100 calories or less
+
+Console.WriteLine("\n\nCereals with less than 100 calories");
+foreach (Cereal cereal in cereals)
+{
+    if (cereal.Calories <=  100)
+    {
+        Console.WriteLine(cereal);
+    }
 }
