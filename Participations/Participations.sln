@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions-ParallelArrays", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions-DoubleInputValidation", "Functions-DoubleInputValidation\Functions-DoubleInputValidation.csproj", "{EF3D27CB-1B74-47A4-AB5B-FE6582C6BA30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Toy", "Classes_Toy\Classes_Toy.csproj", "{B7E5B119-D648-4621-A9A4-CB756F40178A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_Toy", "Classes_Toy\Classes_Toy.csproj", "{B7E5B119-D648-4621-A9A4-CB756F40178A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Cereal", "Classes_Cereal\Classes_Cereal.csproj", "{267204A4-AB82-4C8A-BCB4-16D2AFFCEB3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes_Cereal", "Classes_Cereal\Classes_Cereal.csproj", "{267204A4-AB82-4C8A-BCB4-16D2AFFCEB3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Cars", "Classes_Cars\Classes_Cars.csproj", "{994B8D6F-D623-41B7-BFE1-7ADF9BB34052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{267204A4-AB82-4C8A-BCB4-16D2AFFCEB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{267204A4-AB82-4C8A-BCB4-16D2AFFCEB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{267204A4-AB82-4C8A-BCB4-16D2AFFCEB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994B8D6F-D623-41B7-BFE1-7ADF9BB34052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994B8D6F-D623-41B7-BFE1-7ADF9BB34052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994B8D6F-D623-41B7-BFE1-7ADF9BB34052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994B8D6F-D623-41B7-BFE1-7ADF9BB34052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
